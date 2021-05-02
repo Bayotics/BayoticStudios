@@ -20,18 +20,18 @@ $comments = $_POST['comments'];
 $verify   = $_POST['verify'];
 
 if(trim($first_name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div class="error_message">Please Enter your name.</div>';
 	exit();
 }  else if(trim($email) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	echo '<div class="error_message">Please do enter a valid email address.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message"> You have enter an invalid e-mail address, please try again.</div>';
 	exit();
 }
 
 if(trim($comments) == '') {
-	echo '<div class="error_message">Attention! Please enter your message.</div>';
+	echo '<div class="error_message">Message cannot be empty</div>';
 	exit();
 }
 
@@ -45,7 +45,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "example@yourdomain.com";
+$address = "abdullahishobaloju@gmail.com";
 
 
 // Configuration option.
@@ -79,7 +79,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h1>Email Sent Successfully.</h1>";
-	echo "<p>Thank you <strong>$first_name</strong>, your message has been submitted to us.</p>";
+	echo "<p>Thank you <strong>$first_name</strong>, Your message has been sent </p>";
 	echo "</div>";
 	echo "</fieldset>";
 
