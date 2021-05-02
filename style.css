@@ -2545,7 +2545,7 @@ a.navbar-brand {
     background-repeat: no-repeat;
 }
 #barbers{
-    background: url(uploads/index-banner.jpg);
+    background: url(uploads/index-banner.jpg); 
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
