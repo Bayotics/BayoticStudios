@@ -84,7 +84,7 @@
     jQuery(document).ready(function() {
         $('#contactform').submit(function() {
             var action = $(this).attr('action');
-            $("#message").slideUp(750, function() {
+            $("#message").slideUp(300, function() {
                 $('#message').hide();
                 $('#submit')
                     .after('<img src="images/ajax-loader.gif" class="loader" />')
