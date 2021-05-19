@@ -557,7 +557,6 @@ body.barber_version .sidebar-nav li a.active{
 }
 
 .first-section::before{
-	content: "";
 	position: absolute;
 	top: 0px;
 	left: 0px;
