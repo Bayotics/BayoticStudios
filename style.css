@@ -551,6 +551,7 @@ body.barber_version .sidebar-nav li a.active{
 
 .first-section {
     display: block;
+    height: 550px;
     position: relative;
     overflow: hidden;
     padding: 16em 0 13em;
