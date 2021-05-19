@@ -1842,7 +1842,7 @@ select.mobile-device {
 .contact_form {
     border: 1px solid #ededed;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background: url(uploads/about-background.jpg);
+    background: rgb(47, 49, 49);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
