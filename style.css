@@ -2257,6 +2257,7 @@ select.mobile-device {
 	background: url("uploads/barber_all.jpg") no-repeat center;
 	background-size: cover;
 	position: relative;
+	height: 620px;
 }
 
 .all-page-bar::before{
